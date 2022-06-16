@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import "awesom-5.15.4-all.min.css";
+@import "guide.css";
+@import "config.css";
+@import "all.css";
+@import "login.css";
+@import "home.css";
+@import "dangkyhoc.css";
+
+/* responsive */
+
+@import "responsive.css";

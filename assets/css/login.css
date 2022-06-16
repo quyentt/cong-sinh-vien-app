@@ -1,0 +1,148 @@
+.login-wrapper {
+    background-image: url(../images/login-bg.jpg);
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.login-wrapper:before {
+    background: url(../images/login-bg-footer.png) top center no-repeat;
+    height: auto;
+    min-height: 160px;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+    z-index: 1;
+}
+
+.login-footer {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 15px;
+    z-index: 2;
+}
+
+.page-label-lg {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.login-form {
+    padding: 0 10vw;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.login-form .form-control,
+.login-form .btn {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 90px;
+    border: 1px solid transparent;
+    height: 48px;
+    padding: 0 50px;
+    margin-bottom: 16px;
+    line-height: 50px;
+}
+
+.login-form .btn {
+    padding: 0;
+}
+
+.login-form .form-control:focus {
+    border: solid 1px var(--color-primary);
+    outline: none;
+}
+
+.login-form .form-group {
+    position: relative;
+}
+
+.login-form .form-group .icon-l {
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    color: var(--color-primary);
+}
+
+.login-form .form-group .icon-r {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    color: #888888;
+}
+
+.bnt-show-hide-pass {
+    position: absolute;
+    top: 0px;
+    height: 48px;
+    width: 50px;
+    font-size: 16px;
+    right: 5px;
+    text-align: center;
+    line-height: 43px;
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+    color: #888888;
+}
+
+.forget-pass-hefp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.btn-main {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: var(--color-primary) !important;
+}
+
+.or-row {
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #ACBEEC;
+}
+
+.btn-orange {
+    background: var(--color-secondary) !important;
+    font-weight: 600;
+    font-size: 18px !important;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 320px) {
+    .login-footer {
+        display: none;
+    }
+}

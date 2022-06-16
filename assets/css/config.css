@@ -1,0 +1,20 @@
+:root {
+    --color-primary: #223771;
+    --color-secondary: #DD4B39;
+    --color-tertiary: #FFBF1B;
+    --color-quaternary: #ACBEEC;
+    --color-quinary: #F26522;
+    --color-senary: #4E8D42;
+    --color-septenary: #7086C1;
+    --color-red: #E70303;
+    /* 
+Tertiary (3)
+quaternary (4),
+quinary (5),
+senary (6),
+septenary (7),
+octonary (8),
+nonary (9),
+denary (10).
+ */
+}
