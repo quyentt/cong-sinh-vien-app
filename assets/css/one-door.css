@@ -1,0 +1,108 @@
+.one-door-intro {
+    background-image: linear-gradient(white, #a9bae7);
+    min-height: 100vh;
+}
+
+.one-door-intro .btn {
+    height: 50px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.one-door-content-head a {
+    position: relative;
+}
+
+.one-door-content-head span {
+    width: 16px;
+    height: 16px;
+    background: var(--color-quinary);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: -5px;
+    left: calc(50% + 5px);
+}
+
+.one-door-content-body {
+    background-image: url("../images/onedoor-bg.png"), linear-gradient(180deg, #223771 0%, #7086C1 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    min-height: calc(100vh - 194px);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.one-door-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 15px;
+}
+
+.one-door-list .one-door-item {
+    width: calc(50% - 7px);
+}
+
+.one-door-list .one-door-item-cover {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    border-bottom: solid 4px;
+    text-align: center;
+    height: 100%;
+}
+
+.one-door-list .one-door-item img {
+    height: 84px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.one-door-list .one-door-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.wait-comfirm-item {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.wait-comfirm-meta {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.box-add-mail {
+    background-image: url('../images/bg-add-email.png');
+    background-size: cover;
+    padding: 12px 15px 12px 70px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.box-add-mail .form-input {
+    border: 1px solid #AAAAAA;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.box-add-mail .form-input::placeholder {
+    color: #222222;
+}
