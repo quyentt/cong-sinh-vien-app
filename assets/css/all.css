@@ -72,6 +72,22 @@ button {
     display: block;
 }
 
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-3 {
+    grid-template-columns: auto auto auto;
+}
+
+.gap-14 {
+    gap: 14px;
+}
+
 .flex {
     display: flex;
 }
@@ -358,6 +374,11 @@ button {
     color: white;
 }
 
+.btn-nonary {
+    background: var(--color-nonary);
+    color: white;
+}
+
 .btn-red {
     background: red;
     color: white;
@@ -373,6 +394,10 @@ button {
 
 .border-none {
     border: none;
+}
+
+.border-1 {
+    border: solid 1px;
 }
 
 .radius-top-20 {
@@ -416,6 +441,10 @@ button {
     background: var(--color-octonary);
 }
 
+.bg-nonary {
+    background: var(--color-nonary);
+}
+
 .line-1 {
     height: 1px;
     width: 100%;
@@ -441,6 +470,10 @@ button {
 
 .bg-f1 {
     background: #F1F1F1;
+}
+
+.bg-d1 {
+    background: #d1d1d1;
 }
 
 .fixed-bottom {
@@ -587,6 +620,10 @@ button {
     font-size: 15px;
 }
 
+.gap-12 {
+    gap: 12px;
+}
+
 .gap-14 {
     gap: 14px;
 }
@@ -669,6 +706,29 @@ button {
 
 .w-50px {
     width: 50px;
+}
+
+.max-w-150px {
+    max-width: 150px;
+}
+
+.checkbox-orange-15 .checkmark {
+    height: 15px;
+    width: 15px;
+}
+
+.checkbox-orange-15 input:checked~.checkmark {
+    background: var(--color-quinary);
+    border: none;
+}
+
+.checkbox-orange-15 .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
 }
 
 
