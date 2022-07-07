@@ -45,6 +45,11 @@
     right: 15px;
 }
 
+.page-title span.reverse {
+    background: var(--color-quinary);
+    color: white;
+}
+
 .content-r-top {
     background: white;
 }
