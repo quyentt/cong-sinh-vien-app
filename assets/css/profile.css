@@ -2,7 +2,6 @@
     background-image: url(../images/profile-bg.png);
     background-size: 100% auto;
     min-height: 100vh;
-    max-width: 900px;
 }
 
 .profile-wrapper .user-avata {
