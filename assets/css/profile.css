@@ -1,0 +1,46 @@
+.profile-wrapper {
+    background-image: url(../images/profile-bg.png);
+    background-size: 100% auto;
+    min-height: 100vh;
+    max-width: 900px;
+}
+
+.profile-wrapper .user-avata {
+    width: 152px;
+    height: 152px;
+}
+
+.profile-wrapper .user-avata img {
+    border: solid 8px #097FF5;
+}
+
+.profile-wrapper .user-avata::before {
+    height: 35px;
+}
+
+.profile-wrapper .user-avata .avata-edit {
+    bottom: 12px;
+}
+
+.profile-wrapper .nav-is-icon {
+    padding-top: 104px;
+}
+
+.profile-wrapper .nav-is-icon i {
+    font-size: 32px;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+.profile-wrapper .nav-is-icon .nav-is-icon-item.active i {
+    font-weight: bold;
+    color: var(--color-quinary);
+}
+
+.profile-wrapper .btn-dots {
+    font-size: 16px;
+}
+
+.profile-wrapper .btn-dots i {
+    font-size: 22px;
+}

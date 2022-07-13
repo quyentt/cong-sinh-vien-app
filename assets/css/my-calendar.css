@@ -1,0 +1,282 @@
+.calendar-week-table {
+    text-align: center;
+}
+
+.date-header {
+    border-bottom: solid 1px var(--dask-blue);
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+    margin-bottom: -25px;
+}
+
+.date-header .day {
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.date-header .text {
+    font-size: 12px;
+    color: #888888;
+    padding-bottom: 10px;
+    padding-top: 6px;
+}
+
+.date-body {
+    display: flex;
+}
+
+
+/* width */
+
+.date-body::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+/* Track */
+
+.date-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+.date-body::-webkit-scrollbar-thumb {
+    background: #dce3f6;
+}
+
+
+/* Handle on hover */
+
+.date-body::-webkit-scrollbar-thumb:hover {
+    background: #b0c0ea;
+}
+
+.day-of-week {
+    width: 12.5%;
+}
+
+.calendar-week-table .date {
+    width: 12.5%;
+}
+
+.hour-row {
+    height: 50px;
+    position: relative;
+}
+
+.hour-row::before {
+    content: "";
+    width: 110%;
+    top: 50%;
+    right: 0;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 1px;
+}
+
+.date .hour-row::before {
+    height: 0;
+}
+
+.date .hour-row::after {
+    width: 0;
+}
+
+.day-of-week .task {
+    width: 100%;
+    padding: 2px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: left;
+    padding: 3px 2px;
+    border-top: solid 2px;
+}
+
+.date .hour-row {
+    border-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #888888;
+}
+
+.my-calendar .news-search-form {
+    border-bottom: solid 1px #e1e1e1;
+    padding: 15px 15px 0 15px;
+}
+
+.task-header .title {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.task-header .task-date {
+    font-size: 8px;
+    line-height: 12px;
+    color: #666666;
+}
+
+.date-header {
+    padding-right: 4px;
+}
+
+.day-of-week {
+    position: relative;
+}
+
+.block-calendar .block-label {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-transform: inherit;
+}
+
+.block-calendar .block-label .next-prev-month {
+    margin-left: auto;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.block-calendar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.block-calendar ul li {
+    width: 14.285%;
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+    cursor: pointer;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.block-calendar ul.weekdays,
+.day-of-other-month {
+    color: #666666;
+}
+
+.calendar-block-cover {
+    padding: 15px 10px;
+}
+
+.block-calendar ul li.active {
+    color: white;
+    position: relative;
+}
+
+.block-calendar ul li.active span {
+    z-index: 1;
+}
+
+.block-calendar ul li.active::before {
+    content: "";
+    position: absolute;
+    background: var(--color-quinary);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.my-calendar .news-search-form .btn {
+    background-color: white;
+    border: 1px solid #acbeec;
+    color: #222222;
+    width: 115px;
+}
+
+.my-calendar .news-search-form .btn.btn-orange {
+    background-color: var(--orange);
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+.form-group-cover {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.day-of-week.calendar-day {
+    width: calc(100% - 12.5%);
+}
+
+.day-of-week.calendar-day .hour-row::before {
+    width: calc(100% + 5px);
+}
+
+.day-of-week.calendar-day .task {
+    border-top: none;
+    border-left: solid 2px;
+    padding: 5px;
+}
+
+.day-of-week.calendar-day .task .task-header .title {
+    font-size: 14px;
+}
+
+.day-of-week.calendar-day .task .task-header .task-date {
+    font-size: 13px;
+}
+
+.day-of-week.calendar-day .task .task-description {
+    font-size: 13px;
+    line-height: 17px;
+    color: #666666;
+}
+
+.choose-day .day,
+.choose-day .text {
+    color: #666666;
+    z-index: 1;
+    position: relative;
+}
+
+.choose-day .day-of-week {
+    position: relative;
+}
+
+.choose-day.date-header {
+    margin-bottom: 0;
+    background: #f4f4f4;
+    padding-top: 15px;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.choose-day .day-of-week.active::before {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: var(--color-quinary);
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: -8px;
+    border-radius: 4px;
+}
+
+.choose-day .day-of-week.active .day,
+.choose-day .day-of-week.active .text {
+    color: white;
+}
+
+.day-of-week.sunday .day,
+.day-of-week.sunday .text {
+    color: var(--color-red);
+}
