@@ -85,12 +85,19 @@
     margin-bottom: 20px;
 }
 
-.our-chat img {
+.chat-row .avatar {
     width: 30px;
     height: 30px;
     flex-shrink: 0;
     border-radius: 100%;
+}
+
+.our-chat .avatar {
     margin-right: 10px;
+}
+
+.my-chat .avatar {
+    margin-left: 10px;
 }
 
 .chat-row .name-date {
