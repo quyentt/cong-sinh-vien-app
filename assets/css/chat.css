@@ -117,6 +117,7 @@
 .chat-row .content {
     overflow: hidden;
     width: fit-content;
+    margin-bottom: 2px;
 }
 
 .our-chat .name-date {
@@ -125,7 +126,11 @@
 
 .our-chat .content {
     background: #ECF4FF;
-    border-radius: 20px 20px 20px 0px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.our-chat .content:first-child {
+    border-top-left-radius: 20px;
 }
 
 .my-chat {
@@ -135,8 +140,12 @@
 
 .my-chat .content {
     background: #F4F4F4;
-    border-radius: 20px 20px 0px 20px;
-    margin-bottom: 0;
+    border-radius: 20px 0px 0px 20px;
+    margin-bottom: 2px;
+}
+
+.my-chat .content:first-child {
+    border-top-right-radius: 20px;
 }
 
 .my-chat .name-date {
@@ -193,4 +202,13 @@
     display: inline-block;
     width: 8px;
     border-radius: 100%;
+}
+
+.content-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-chat .content-group {
+    align-items: flex-end;
 }
