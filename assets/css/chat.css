@@ -156,7 +156,7 @@
 }
 
 .my-chat .name-date {
-    right: 0;
+    right: 40px;
 }
 
 .day-chat::before {
