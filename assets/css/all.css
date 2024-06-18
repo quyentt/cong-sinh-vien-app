@@ -2743,3 +2743,90 @@ input:focus-visible {
 .border-e9 {
   border-color: #e9e9e9;
 }
+
+.checkbox-16 .checkmark {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox-end .checkmark {
+  position: relative;
+}
+
+.checkbox-16 .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+}
+
+.checkbox-cl-13 .checkbox:checked ~ .checkmark {
+  background: var(--color-13);
+}
+
+.checkbox-cl-13 .checkbox:checked ~ .checkmark::after {
+  border-color: #fff;
+}
+
+.checkbox-14 .checkmark {
+  width: 14px;
+  height: 14px;
+}
+
+.checkbox-14 .checkmark:after {
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+}
+
+.border-0 {
+  border-width: 0;
+}
+
+.height-30 {
+  height: 30px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-auto {
+  width: auto !important;
+}
+
+.fs-15-i {
+  font-size: 15px !important;
+}
+
+.bg-11 {
+  background: var(--color-11);
+}
+
+.bg-88 {
+  background: #888888;
+}
+
+.change-calendar-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px 15px;
+}
+
+.change-calendar-item .ste {
+  width: calc((100% - 60px) / 2);
+}
+
+.change-calendar-item .arrow {
+  width: 60px;
+  text-align: center;
+}
+
+.change-calendar-item .form-control .form-input {
+  padding-right: 25px;
+}
+
+.change-calendar-item .form-control .icon-right {
+  right: 0;
+}
