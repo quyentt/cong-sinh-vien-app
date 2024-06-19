@@ -2830,3 +2830,7 @@ input:focus-visible {
 .change-calendar-item .form-control .icon-right {
   right: 0;
 }
+
+.h-26px {
+  height: 26px;
+}
