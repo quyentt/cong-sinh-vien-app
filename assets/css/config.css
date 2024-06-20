@@ -1,21 +1,22 @@
 :root {
-    --color-primary: #223771;
-    --color-secondary: #DD4B39;
-    --color-tertiary: #FFBF1B;
-    --color-quaternary: #ACBEEC;
-    --color-quinary: #F26522;
-    --color-senary: #4E8D42;
-    --color-septenary: #7086C1;
-    --color-red: #E70303;
-    --color-octonary: #009BB1;
-    --color-nonary: #198754;
-    --color-denary: #C08004;
-    --color-11: #0E9347;
-    --color-12: #3D8AC7;
-    --color-13: #0D6EFD;
-    --color-14: #2390FF;
-    --color-15: #F26522;
-    /* 
+  --color-primary: #223771;
+  --color-secondary: #dd4b39;
+  --color-tertiary: #ffbf1b;
+  --color-quaternary: #acbeec;
+  --color-quinary: #f26522;
+  --color-senary: #4e8d42;
+  --color-septenary: #7086c1;
+  --color-red: #e70303;
+  --color-octonary: #009bb1;
+  --color-nonary: #198754;
+  --color-denary: #c08004;
+  --color-11: #0e9347;
+  --color-12: #3d8ac7;
+  --color-13: #0d6efd;
+  --color-14: #2390ff;
+  --color-15: #f26522;
+  --color-black: #222222;
+  /* 
 Tertiary (3)
 quaternary (4),
 quinary (5),
